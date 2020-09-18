@@ -1,8 +1,8 @@
-document.getElementsByClassName('single__slide').slick({
+$('.single__slide').slick({
     dots: true,
     arrows : false,
 });
-document.getElementsByClassName('double__slide').slick({
+$('.double__slide').slick({
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
@@ -11,7 +11,7 @@ document.getElementsByClassName('double__slide').slick({
       prevArrow: "<img src='img/arrows-rith.png' class='next' alt='1'>",
       nextArrow: "<img src='img/arrows-left.png' class='last' alt='2'>",
 });
-    
+     
 var burgermenu = false;
 function burgerMenu(x) {
     if (burgermenu == false) {
