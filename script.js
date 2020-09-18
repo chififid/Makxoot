@@ -1,8 +1,8 @@
-document.getElementByClassName('single__slide').slick({
+document.getElementsByClassName('single__slide').slick({
     dots: true,
     arrows : false,
 });
-document.getElementByClassName('double__slide').slick({
+document.getElementsByClassName('double__slide').slick({
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
