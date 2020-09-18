@@ -1,8 +1,8 @@
-document.getElementById('single__slide').slick({
+document.getElementByClass('single__slide').slick({
     dots: true,
     arrows : false,
 });
-document.getElementById('double__slide').slick({
+document.getElementByClass('double__slide').slick({
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
