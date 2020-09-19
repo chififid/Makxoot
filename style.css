@@ -3,6 +3,10 @@ body {
   font-family: "Open Sans";
 }
 
+button {
+    cursor: pointer;
+}
+
 .header__bg {
   background-color: #0ea5ea;
 }
@@ -1331,10 +1335,4 @@ footer .content .service .serv .preview {
     font-size: 1.6vw;
     margin-bottom: 1.5vw;
   }
-}
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
 }
